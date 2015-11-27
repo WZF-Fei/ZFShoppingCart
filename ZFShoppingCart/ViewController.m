@@ -558,6 +558,9 @@
                 [self.ShopCartView.OrderList.tableView reloadData];
                 [self.ShopCartView updateFrame:self.ShopCartView.OrderList];
             }
+            else{
+                
+            }
         }; 
 
         
@@ -569,6 +572,10 @@
                 nCount -= 1;
                 [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                 block(sectionID,rowID);
+                
+                self.ShopCartView.OrderList.objects = self.ordersArray;
+                //刷新当前row
+                [self.ShopCartView.OrderList.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:[NSIndexPath indexPathForRow:rowID inSection:sectionID],nil] withRowAnimation:UITableViewRowAnimationNone];
             }
             else{
                 //section:0 有该商品
@@ -581,6 +588,7 @@
                         nCount -= 1;
                         [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                         block(sectionID,row);
+                    
                         return;
                     }
                     row ++;
