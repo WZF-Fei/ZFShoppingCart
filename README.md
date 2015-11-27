@@ -5,5 +5,5 @@
 ## Example:
 
 <p align="center" >
-<img src="https://github.com/WZF-Fei/ZFShoppingCart/blob/master/ZFShoppingCartExampleTests/shoppingcart.gif" width="266" height="500"/>
+<img src="https://github.com/WZF-Fei/ZFShoppingCart/blob/master/ZFShoppingCartTests/shoppingcart.gif" width="266" height="500"/>
 </p>
