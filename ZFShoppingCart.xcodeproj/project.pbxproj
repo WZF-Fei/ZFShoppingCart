@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2A673F1BE893250074C7B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A673E1BE893250074C7B1 /* main.m */; };
+		DB2A67421BE893250074C7B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A67411BE893250074C7B1 /* AppDelegate.m */; };
+		DB2A67451BE893250074C7B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A67441BE893250074C7B1 /* ViewController.m */; };
+		DB2A67481BE893250074C7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67461BE893250074C7B1 /* Main.storyboard */; };
+		DB2A674A1BE893250074C7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67491BE893250074C7B1 /* Assets.xcassets */; };
+		DB2A674D1BE893250074C7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2A674B1BE893250074C7B1 /* LaunchScreen.storyboard */; };
+		DB2A67581BE893250074C7B1 /* ZFShoppingCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A67571BE893250074C7B1 /* ZFShoppingCartTests.m */; };
+		DB2A67631BE893250074C7B1 /* ZFShoppingCartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A67621BE893250074C7B1 /* ZFShoppingCartUITests.m */; };
+		DB2A67731BE895B60074C7B1 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2A67711BE895B60074C7B1 /* FoodCell.m */; settings = {ASSET_TAGS = (); }; };
+		DB2A67741BE895B60074C7B1 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67721BE895B60074C7B1 /* FoodCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DB2A67961BE8969C0074C7B1 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A678C1BE8969C0074C7B1 /* 10.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A67971BE8969C0074C7B1 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A678D1BE8969C0074C7B1 /* 2.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A67981BE8969C0074C7B1 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A678E1BE8969C0074C7B1 /* 3.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A67991BE8969C0074C7B1 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A678F1BE8969C0074C7B1 /* 4.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A679A1BE8969C0074C7B1 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67901BE8969C0074C7B1 /* 5.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A679C1BE8969C0074C7B1 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67921BE8969C0074C7B1 /* 7.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A679D1BE8969C0074C7B1 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67931BE8969C0074C7B1 /* 8.png */; settings = {ASSET_TAGS = (); }; };
+		DB2A679E1BE8969C0074C7B1 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2A67941BE8969C0074C7B1 /* 9.png */; settings = {ASSET_TAGS = (); }; };
+		DB8138301BEC39410031E8C9 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81382F1BEC39410031E8C9 /* BadgeView.m */; settings = {ASSET_TAGS = (); }; };
+		DB8138381BEC8E3E0031E8C9 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8138371BEC8E3E0031E8C9 /* OverlayView.m */; settings = {ASSET_TAGS = (); }; };
+		DB81383B1BECA6010031E8C9 /* ShoppingCartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB81383A1BECA6010031E8C9 /* ShoppingCartView.m */; settings = {ASSET_TAGS = (); }; };
+		DB970FDD1BFAD29E004B17CF /* ShoppingCartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB970FDB1BFAD29E004B17CF /* ShoppingCartCell.m */; settings = {ASSET_TAGS = (); }; };
+		DB970FDE1BFAD29E004B17CF /* ShoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB970FDC1BFAD29E004B17CF /* ShoppingCartCell.xib */; settings = {ASSET_TAGS = (); }; };
+		DBB4394C1BF9C3C20057B29C /* ZFReOrderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB4394B1BF9C3C20057B29C /* ZFReOrderTableView.m */; settings = {ASSET_TAGS = (); }; };
+		DBF03D801BE9DF9A004E1E5A /* Minus.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D7E1BE9DF9A004E1E5A /* Minus.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D811BE9DF9A004E1E5A /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D7F1BE9DF9A004E1E5A /* Plus.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D8B1BE9FAD5004E1E5A /* praise.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D8A1BE9FAD5004E1E5A /* praise.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D8E1BE9FD03004E1E5A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D8C1BE9FD03004E1E5A /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D8F1BE9FD03004E1E5A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D8D1BE9FD03004E1E5A /* 6.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D921BEA02E9004E1E5A /* cart_1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D901BEA02E9004E1E5A /* cart_1.png */; settings = {ASSET_TAGS = (); }; };
+		DBF03D931BEA02E9004E1E5A /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF03D911BEA02E9004E1E5A /* cart.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2A67541BE893250074C7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2A67321BE893250074C7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A67391BE893250074C7B1;
+			remoteInfo = ZFShoppingCart;
+		};
+		DB2A675F1BE893250074C7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2A67321BE893250074C7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2A67391BE893250074C7B1;
+			remoteInfo = ZFShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2A673A1BE893250074C7B1 /* ZFShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A673E1BE893250074C7B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB2A67401BE893250074C7B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB2A67411BE893250074C7B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB2A67431BE893250074C7B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB2A67441BE893250074C7B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB2A67471BE893250074C7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2A67491BE893250074C7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB2A674C1BE893250074C7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB2A674E1BE893250074C7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A67531BE893250074C7B1 /* ZFShoppingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFShoppingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A67571BE893250074C7B1 /* ZFShoppingCartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFShoppingCartTests.m; sourceTree = "<group>"; };
+		DB2A67591BE893250074C7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A675E1BE893250074C7B1 /* ZFShoppingCartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFShoppingCartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2A67621BE893250074C7B1 /* ZFShoppingCartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFShoppingCartUITests.m; sourceTree = "<group>"; };
+		DB2A67641BE893250074C7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2A67701BE895B60074C7B1 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		DB2A67711BE895B60074C7B1 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		DB2A67721BE895B60074C7B1 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		DB2A678C1BE8969C0074C7B1 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		DB2A678D1BE8969C0074C7B1 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DB2A678E1BE8969C0074C7B1 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DB2A678F1BE8969C0074C7B1 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DB2A67901BE8969C0074C7B1 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DB2A67921BE8969C0074C7B1 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		DB2A67931BE8969C0074C7B1 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		DB2A67941BE8969C0074C7B1 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		DB81382E1BEC39410031E8C9 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		DB81382F1BEC39410031E8C9 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		DB8138361BEC8E3E0031E8C9 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		DB8138371BEC8E3E0031E8C9 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		DB8138391BECA6010031E8C9 /* ShoppingCartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartView.h; sourceTree = "<group>"; };
+		DB81383A1BECA6010031E8C9 /* ShoppingCartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartView.m; sourceTree = "<group>"; };
+		DB970FDA1BFAD29E004B17CF /* ShoppingCartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartCell.h; sourceTree = "<group>"; };
+		DB970FDB1BFAD29E004B17CF /* ShoppingCartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartCell.m; sourceTree = "<group>"; };
+		DB970FDC1BFAD29E004B17CF /* ShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartCell.xib; sourceTree = "<group>"; };
+		DBB4394A1BF9C3C20057B29C /* ZFReOrderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFReOrderTableView.h; sourceTree = "<group>"; };
+		DBB4394B1BF9C3C20057B29C /* ZFReOrderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFReOrderTableView.m; sourceTree = "<group>"; };
+		DBF03D7E1BE9DF9A004E1E5A /* Minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Minus.png; sourceTree = "<group>"; };
+		DBF03D7F1BE9DF9A004E1E5A /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		DBF03D8A1BE9FAD5004E1E5A /* praise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = praise.png; sourceTree = "<group>"; };
+		DBF03D8C1BE9FD03004E1E5A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DBF03D8D1BE9FD03004E1E5A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		DBF03D901BEA02E9004E1E5A /* cart_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart_1.png; sourceTree = "<group>"; };
+		DBF03D911BEA02E9004E1E5A /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2A67371BE893250074C7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A67501BE893250074C7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A675B1BE893250074C7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2A67311BE893250074C7B1 = {
+			isa = PBXGroup;
+			children = (
+				DB2A673C1BE893250074C7B1 /* ZFShoppingCart */,
+				DB2A67561BE893250074C7B1 /* ZFShoppingCartTests */,
+				DB2A67611BE893250074C7B1 /* ZFShoppingCartUITests */,
+				DB2A673B1BE893250074C7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2A673B1BE893250074C7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A673A1BE893250074C7B1 /* ZFShoppingCart.app */,
+				DB2A67531BE893250074C7B1 /* ZFShoppingCartTests.xctest */,
+				DB2A675E1BE893250074C7B1 /* ZFShoppingCartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2A673C1BE893250074C7B1 /* ZFShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A678A1BE8969C0074C7B1 /* images */,
+				DB2A67401BE893250074C7B1 /* AppDelegate.h */,
+				DB2A67411BE893250074C7B1 /* AppDelegate.m */,
+				DB2A67431BE893250074C7B1 /* ViewController.h */,
+				DB2A67441BE893250074C7B1 /* ViewController.m */,
+				DB2A67701BE895B60074C7B1 /* FoodCell.h */,
+				DB2A67711BE895B60074C7B1 /* FoodCell.m */,
+				DB2A67721BE895B60074C7B1 /* FoodCell.xib */,
+				DB970FDA1BFAD29E004B17CF /* ShoppingCartCell.h */,
+				DB970FDB1BFAD29E004B17CF /* ShoppingCartCell.m */,
+				DB970FDC1BFAD29E004B17CF /* ShoppingCartCell.xib */,
+				DB970FDF1BFB273E004B17CF /* View */,
+				DBB439491BF9C3C20057B29C /* ZFReOrderTableView */,
+				DB2A67461BE893250074C7B1 /* Main.storyboard */,
+				DB2A67491BE893250074C7B1 /* Assets.xcassets */,
+				DB2A674B1BE893250074C7B1 /* LaunchScreen.storyboard */,
+				DB2A674E1BE893250074C7B1 /* Info.plist */,
+				DB2A673D1BE893250074C7B1 /* Supporting Files */,
+			);
+			path = ZFShoppingCart;
+			sourceTree = "<group>";
+		};
+		DB2A673D1BE893250074C7B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A673E1BE893250074C7B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB2A67561BE893250074C7B1 /* ZFShoppingCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A67571BE893250074C7B1 /* ZFShoppingCartTests.m */,
+				DB2A67591BE893250074C7B1 /* Info.plist */,
+			);
+			path = ZFShoppingCartTests;
+			sourceTree = "<group>";
+		};
+		DB2A67611BE893250074C7B1 /* ZFShoppingCartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2A67621BE893250074C7B1 /* ZFShoppingCartUITests.m */,
+				DB2A67641BE893250074C7B1 /* Info.plist */,
+			);
+			path = ZFShoppingCartUITests;
+			sourceTree = "<group>";
+		};
+		DB2A678A1BE8969C0074C7B1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DBF03D901BEA02E9004E1E5A /* cart_1.png */,
+				DBF03D911BEA02E9004E1E5A /* cart.png */,
+				DBF03D8C1BE9FD03004E1E5A /* 1.png */,
+				DBF03D8D1BE9FD03004E1E5A /* 6.png */,
+				DBF03D8A1BE9FAD5004E1E5A /* praise.png */,
+				DBF03D7E1BE9DF9A004E1E5A /* Minus.png */,
+				DBF03D7F1BE9DF9A004E1E5A /* Plus.png */,
+				DB2A678C1BE8969C0074C7B1 /* 10.png */,
+				DB2A678D1BE8969C0074C7B1 /* 2.png */,
+				DB2A678E1BE8969C0074C7B1 /* 3.png */,
+				DB2A678F1BE8969C0074C7B1 /* 4.png */,
+				DB2A67901BE8969C0074C7B1 /* 5.png */,
+				DB2A67921BE8969C0074C7B1 /* 7.png */,
+				DB2A67931BE8969C0074C7B1 /* 8.png */,
+				DB2A67941BE8969C0074C7B1 /* 9.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DB970FDF1BFB273E004B17CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB81382E1BEC39410031E8C9 /* BadgeView.h */,
+				DB81382F1BEC39410031E8C9 /* BadgeView.m */,
+				DB8138361BEC8E3E0031E8C9 /* OverlayView.h */,
+				DB8138371BEC8E3E0031E8C9 /* OverlayView.m */,
+				DB8138391BECA6010031E8C9 /* ShoppingCartView.h */,
+				DB81383A1BECA6010031E8C9 /* ShoppingCartView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DBB439491BF9C3C20057B29C /* ZFReOrderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DBB4394A1BF9C3C20057B29C /* ZFReOrderTableView.h */,
+				DBB4394B1BF9C3C20057B29C /* ZFReOrderTableView.m */,
+			);
+			path = ZFReOrderTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2A67391BE893250074C7B1 /* ZFShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A67671BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCart" */;
+			buildPhases = (
+				DB2A67361BE893250074C7B1 /* Sources */,
+				DB2A67371BE893250074C7B1 /* Frameworks */,
+				DB2A67381BE893250074C7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFShoppingCart;
+			productName = ZFShoppingCart;
+			productReference = DB2A673A1BE893250074C7B1 /* ZFShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2A67521BE893250074C7B1 /* ZFShoppingCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A676A1BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCartTests" */;
+			buildPhases = (
+				DB2A674F1BE893250074C7B1 /* Sources */,
+				DB2A67501BE893250074C7B1 /* Frameworks */,
+				DB2A67511BE893250074C7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2A67551BE893250074C7B1 /* PBXTargetDependency */,
+			);
+			name = ZFShoppingCartTests;
+			productName = ZFShoppingCartTests;
+			productReference = DB2A67531BE893250074C7B1 /* ZFShoppingCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2A675D1BE893250074C7B1 /* ZFShoppingCartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2A676D1BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCartUITests" */;
+			buildPhases = (
+				DB2A675A1BE893250074C7B1 /* Sources */,
+				DB2A675B1BE893250074C7B1 /* Frameworks */,
+				DB2A675C1BE893250074C7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2A67601BE893250074C7B1 /* PBXTargetDependency */,
+			);
+			name = ZFShoppingCartUITests;
+			productName = ZFShoppingCartUITests;
+			productReference = DB2A675E1BE893250074C7B1 /* ZFShoppingCartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2A67321BE893250074C7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = WZF;
+				TargetAttributes = {
+					DB2A67391BE893250074C7B1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DB2A67521BE893250074C7B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB2A67391BE893250074C7B1;
+					};
+					DB2A675D1BE893250074C7B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DB2A67391BE893250074C7B1;
+					};
+				};
+			};
+			buildConfigurationList = DB2A67351BE893250074C7B1 /* Build configuration list for PBXProject "ZFShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2A67311BE893250074C7B1;
+			productRefGroup = DB2A673B1BE893250074C7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2A67391BE893250074C7B1 /* ZFShoppingCart */,
+				DB2A67521BE893250074C7B1 /* ZFShoppingCartTests */,
+				DB2A675D1BE893250074C7B1 /* ZFShoppingCartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2A67381BE893250074C7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF03D801BE9DF9A004E1E5A /* Minus.png in Resources */,
+				DB2A67991BE8969C0074C7B1 /* 4.png in Resources */,
+				DB2A679A1BE8969C0074C7B1 /* 5.png in Resources */,
+				DB2A679C1BE8969C0074C7B1 /* 7.png in Resources */,
+				DB2A674D1BE893250074C7B1 /* LaunchScreen.storyboard in Resources */,
+				DB2A67741BE895B60074C7B1 /* FoodCell.xib in Resources */,
+				DBF03D8F1BE9FD03004E1E5A /* 6.png in Resources */,
+				DB970FDE1BFAD29E004B17CF /* ShoppingCartCell.xib in Resources */,
+				DB2A67971BE8969C0074C7B1 /* 2.png in Resources */,
+				DBF03D8B1BE9FAD5004E1E5A /* praise.png in Resources */,
+				DB2A67981BE8969C0074C7B1 /* 3.png in Resources */,
+				DBF03D8E1BE9FD03004E1E5A /* 1.png in Resources */,
+				DBF03D921BEA02E9004E1E5A /* cart_1.png in Resources */,
+				DBF03D931BEA02E9004E1E5A /* cart.png in Resources */,
+				DB2A67961BE8969C0074C7B1 /* 10.png in Resources */,
+				DB2A679E1BE8969C0074C7B1 /* 9.png in Resources */,
+				DB2A679D1BE8969C0074C7B1 /* 8.png in Resources */,
+				DB2A674A1BE893250074C7B1 /* Assets.xcassets in Resources */,
+				DB2A67481BE893250074C7B1 /* Main.storyboard in Resources */,
+				DBF03D811BE9DF9A004E1E5A /* Plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A67511BE893250074C7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A675C1BE893250074C7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2A67361BE893250074C7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A67451BE893250074C7B1 /* ViewController.m in Sources */,
+				DB81383B1BECA6010031E8C9 /* ShoppingCartView.m in Sources */,
+				DB970FDD1BFAD29E004B17CF /* ShoppingCartCell.m in Sources */,
+				DB2A67731BE895B60074C7B1 /* FoodCell.m in Sources */,
+				DB2A67421BE893250074C7B1 /* AppDelegate.m in Sources */,
+				DB8138301BEC39410031E8C9 /* BadgeView.m in Sources */,
+				DBB4394C1BF9C3C20057B29C /* ZFReOrderTableView.m in Sources */,
+				DB2A673F1BE893250074C7B1 /* main.m in Sources */,
+				DB8138381BEC8E3E0031E8C9 /* OverlayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A674F1BE893250074C7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A67581BE893250074C7B1 /* ZFShoppingCartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2A675A1BE893250074C7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A67631BE893250074C7B1 /* ZFShoppingCartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2A67551BE893250074C7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2A67391BE893250074C7B1 /* ZFShoppingCart */;
+			targetProxy = DB2A67541BE893250074C7B1 /* PBXContainerItemProxy */;
+		};
+		DB2A67601BE893250074C7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2A67391BE893250074C7B1 /* ZFShoppingCart */;
+			targetProxy = DB2A675F1BE893250074C7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2A67461BE893250074C7B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2A67471BE893250074C7B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2A674B1BE893250074C7B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2A674C1BE893250074C7B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2A67651BE893250074C7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2A67661BE893250074C7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2A67681BE893250074C7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2A67691BE893250074C7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFShoppingCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB2A676B1BE893250074C7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFShoppingCart.app/ZFShoppingCart";
+			};
+			name = Debug;
+		};
+		DB2A676C1BE893250074C7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFShoppingCartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFShoppingCart.app/ZFShoppingCart";
+			};
+			name = Release;
+		};
+		DB2A676E1BE893250074C7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFShoppingCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB2A676F1BE893250074C7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFShoppingCartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WZF.ZFShoppingCartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFShoppingCart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2A67351BE893250074C7B1 /* Build configuration list for PBXProject "ZFShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A67651BE893250074C7B1 /* Debug */,
+				DB2A67661BE893250074C7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2A67671BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A67681BE893250074C7B1 /* Debug */,
+				DB2A67691BE893250074C7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2A676A1BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A676B1BE893250074C7B1 /* Debug */,
+				DB2A676C1BE893250074C7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2A676D1BE893250074C7B1 /* Build configuration list for PBXNativeTarget "ZFShoppingCartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2A676E1BE893250074C7B1 /* Debug */,
+				DB2A676F1BE893250074C7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2A67321BE893250074C7B1 /* Project object */;
+}
