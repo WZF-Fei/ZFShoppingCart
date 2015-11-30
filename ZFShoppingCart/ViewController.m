@@ -569,13 +569,13 @@
 
             if (dic[@"id"] == dict[@"id"]) {
                 NSInteger nCount = [dic[@"orderCount"] integerValue];
-                nCount -= 1;
+//                nCount -= 1;
                 [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                 block(sectionID,rowID);
                 
                 self.ShopCartView.OrderList.objects = self.ordersArray;
-                //刷新当前row
-                [self.ShopCartView.OrderList.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:[NSIndexPath indexPathForRow:rowID inSection:sectionID],nil] withRowAnimation:UITableViewRowAnimationNone];
+                
+                [self.ShopCartView.OrderList.tableView reloadData];
             }
             else{
                 //section:0 有该商品
@@ -589,6 +589,10 @@
                         [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                         block(sectionID,row);
                     
+                        self.ShopCartView.OrderList.objects = self.ordersArray;
+                        
+                        [self.ShopCartView.OrderList.tableView reloadData];
+                        
                         return;
                     }
                     row ++;
@@ -606,7 +610,11 @@
                             [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                             
                             if (nCount <= 0) {
+
                                 block(i,row);
+                                self.ShopCartView.OrderList.objects = self.ordersArray;
+                                
+                                [self.ShopCartView.OrderList.tableView reloadData];
                                 return;
                             }
                             
@@ -624,6 +632,7 @@
         else{
             
             block(sectionID,rowID);
+
         }
 
         
@@ -739,7 +748,6 @@
                 }
             }
         }
-        
         
         int sameIndex = -1;
         for(int i = 0; i< array.count; i++){
