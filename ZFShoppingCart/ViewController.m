@@ -22,11 +22,12 @@
 @property (nonatomic,strong) NSMutableArray *ordersArray;
 
 @property (nonatomic,strong) CALayer *dotLayer;
+
 @property (nonatomic,assign) CGFloat endPointX;
+
 @property (nonatomic,assign) CGFloat endPointY;
 
 @property (nonatomic,strong) UIBezierPath *path;
-
 
 @property (nonatomic,strong) UITableView *tableView ;
 
@@ -325,6 +326,7 @@
     [self groupAnimation];
     
 }
+#pragma mark - 组合动画
 -(void)groupAnimation
 {
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
@@ -495,7 +497,7 @@
     [_ShopCartView setTotalMoney:nTotal];
     
 }
-#pragma mark - store orders
+#pragma mark - store orders 存放订单
 
 -(void)storeOrders:(NSMutableDictionary *)dictionary isAdded:(BOOL)added withSectionIndex:(NSInteger)sectionID withRowIndex:(NSInteger)rowID
 {

@@ -183,7 +183,7 @@
     }
 
 }
-
+#pragma mark - dismiss
 -(void)dismissAnimated:(BOOL)animated
 {
 

@@ -99,6 +99,7 @@
     
 }
 
+#pragma mark -手势操作
 - (void)longPressGestureRecognized:(id)sender {
     
     UILongPressGestureRecognizer *longPress = (UILongPressGestureRecognizer *)sender;
@@ -256,6 +257,7 @@
     
 }
 
+#pragma mark - 是否滚动UITableView
 -(BOOL) canRollUpTableView:(UITableView *)tableView
 {
     BOOL isRollUp = NO;
@@ -310,6 +312,7 @@
     _objects = objects;
 }
 
+#pragma mark - 重新排序
 //排序
 - (void)reorderCurrentRowToIndexPath:(NSIndexPath*)toIndexPath
 {
