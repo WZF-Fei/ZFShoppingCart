@@ -570,7 +570,7 @@
             NSMutableDictionary *dic = self.ordersArray[sectionID][rowID];
 
             if (dic[@"id"] == dict[@"id"]) {
-                NSInteger nCount = [dic[@"orderCount"] integerValue];
+                NSInteger nCount = [dict[@"orderCount"] integerValue];
 //                nCount -= 1;
                 [dic setObject:[NSString stringWithFormat:@"%ld",nCount] forKey:@"orderCount"];
                 block(sectionID,rowID);
